@@ -9,4 +9,4 @@
         (shell-command "docker-compose exec -T web flask test" buf-name)))
     (when old-point (push-mark old-point))))
 
-(provide 'autothemer)
+(provide 'flaskel)
